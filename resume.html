@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+    
+    <div class="top-bar" id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Resume</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="fun.html">Fun Stuff</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Hieu Le</h3>
+
+    <div class="content-container">
+      <div class="content resume-header">
+          <p>Phone: <span>612-433-1354</span></p>
+          <p>Email: <span>hieu.le@stthomas.edu</span></p>
+          <p>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/hle/">linkedin.com/in/hle</a></p>
+          <p>Github: <a target="_blank" href="https://github.com/hieule21">github.com/hieule21</a></p>
+      </div>
+      <div class="content resume-margin">
+        <div class="resume-content">
+          <h5>Education</h5>
+          <hr>
+          <div class="resume-content-header"> 
+            <h6>University of St. Thomas</h6>
+            <h6>Expected: 05/2023</h6>
+          </div>
+          <ul>
+            <li>Bachelor of Science, Computer Science</li>
+            <li>Coursework: Object-oriented Programming, Data Structures, Algorithms, Computer Architecture, Information Security</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content resume-margin">
+        <div class="resume-content">
+          <h5>Skills</h5>
+          <hr>
+          <ul>
+            <li>Programming Languages: Java, JavaScript, PHP, Python, HTML/CSS</li>
+            <li>Technologies & Tools: Azure, AWS, MySQL, NoSQL, Git/Github</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content resume-margin">
+        <div class="resume-content">
+          <h5>Work Experience</h5>
+          <hr>
+          <div class="resume-content-header"> 
+            <h6>Meta (formerly Facebook)</h6>
+            <h6>Seattle, WA</h6>
+          </div>
+          <div class="resume-content-header"> 
+            <p>Software Engineer Intern</p>
+            <p>06/2022 - 08/2022</p>
+          </div>
+          <ul>
+            <li>Implemented years of experience processor for resume data which is heavily used to process 15 million resumes for machine learning models to consume.</li>
+            <li>Reduced service timeout from 4% to nearly 0% by replacing the detour from PHP to Python with the direct query to MySQL database.</li>
+            <li>Responsible for performing integration test for our data pipeline to verify the system is error resistant.</li>
+          </ul>
+          <div class="resume-content-header"> 
+            <h6>Major League Hacking</h6>
+            <h6>Remote, US</h6>
+          </div>
+          <div class="resume-content-header"> 
+            <p>Open-source Developer</p>
+            <p>01/2022 - 04/2022</p>
+          </div>
+          <ul>
+            <li>Contributed map editing feature to RaPiD, a Meta’s open-source extension for OpenStreetMap.</li>
+            <li>Built a feature that enables users to add/edit map objects (utility poles, streetlights, bike racks ...) toOpenStreetMap and integrated with AI detection for better accuracy.</li>
+            <li>Presented this feature to 30+ Meta engineers and received positive feedback regarding the impact on power grid mapping in West Africa and cycling promotion in Europe.</li>
+          </ul>
+          <div class="resume-content-header"> 
+            <h6>Equinix</h6>
+            <h6>Redwood City, CA</h6>
+          </div>
+          <div class="resume-content-header"> 
+            <p>Software Engineer Intern</p>
+            <p>06/2021 - 09/2021</p>
+          </div>
+          <ul>
+            <li>Removed the use of 200+ physical devices by developing drag-and-drop feature and REST APIs to remedy the billing matching process with React.js and Spring Boot.</li>
+            <li>Continuous Integration/Deployment Pipeline Integration, Code Reviews, Unit/Integration/E2E Testing.</li>
+          </ul>
+          <div class="resume-content-header"> 
+            <h6>JDA Software</h6>
+            <h6>Dallas, TX</h6>
+          </div>
+          <div class="resume-content-header"> 
+            <p>Software Engineer Intern</p>
+            <p>01/2021 - 05/2021</p>
+          </div>
+          <ul>
+            <li>Resolved the high cost of Power BI with CRON job microservices to process streaming data, built on Azure environment.</li>
+            <li>Planned and restructured Azure SQL database with indexing, partitioning, and distribution type, improving the I/O performance by 31%.</li>
+            <li>Adapted Agile software development and co-hosted daily Scrum meetings.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content resume-margin">
+        <div class="resume-content">
+          <h5>Personal Projects</h5>
+          <hr>
+          <h6>CV Builder</h6>
+          <ul>
+            <li>Bootstraps a professional resume by filling in information which will be displayed on a formatted resume.</li>
+            <li>Implemented a secure login/register system using JWT and Cookies to authenticate and authorize users.</li>
+            <li>Built with React.js, Redux, Node.js, and MongoDB.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
